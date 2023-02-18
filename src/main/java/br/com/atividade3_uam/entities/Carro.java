@@ -63,13 +63,6 @@ public class Carro {
 	public int getAnoFabricacao() {
 		return anoFabricacao;
 	}
-	public void setAnoFabricacao(int anoFabricacao) {
-		this.anoFabricacao = anoFabricacao;
-	} 
-	
-	public String obterNomeCliente() { 
-		return this.cliente.getName();
-	}
 	
 	public void mostrarCarroComCliente() { 
 		System.out.println("Dados do automóvel"); 
