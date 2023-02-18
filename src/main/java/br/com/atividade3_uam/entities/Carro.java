@@ -79,7 +79,8 @@ public class Carro {
 		System.out.println("Renavam: " +getRenavam());
 		System.out.println("Cor: " +getCor());
 		System.out.println("Ano de Fabricação: " +getAnoFabricacao());
-		System.out.println("Nome do Cliente: " +obterNomeCliente());
+		System.out.println("Nome do Cliente: " +this.cliente.getName());
+		System.out.println("CNH: " +this.cliente.getCnh());
 	}
 	
 	public void mostrarCarro() { 
@@ -90,5 +91,6 @@ public class Carro {
 		System.out.println("Renavam: " +getRenavam());
 		System.out.println("Cor: " +getCor());
 		System.out.println("Ano de Fabricação: " +getAnoFabricacao());
+		System.out.println();
 	}
 }
